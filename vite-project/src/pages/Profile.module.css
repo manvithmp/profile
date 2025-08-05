@@ -11,7 +11,7 @@
 body {
   background: var(--primary);
   margin: 0;
-  padding-top: 80px; /* Prevents content hiding behind fixed navbar */
+  padding-top: 80px;
 }
 
 .container {
@@ -26,7 +26,6 @@ body {
   align-items: center;
 }
 
-/* Improved navbar styling */
 .navbar {
   position: fixed;
   top: 0;
@@ -154,6 +153,7 @@ body {
 }
 
 .profilePic img {
+  background-image: url("/vite-project/public/img.jpg");
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -268,7 +268,6 @@ body {
   display: inline-block;
 }
 
-/* Gradient for hovered word */
 .gradientTextActive {
   background: linear-gradient(90deg, #fc466b, #ffb86c, #865dff, #3f5efb);
   background-size: 200% 200%;
@@ -290,7 +289,6 @@ body {
   }
 }
 
-/* Inactive word styling */
 .gradientTextInactive {
   color: #e9d7ff;
 }
@@ -543,7 +541,6 @@ body {
   100% { background-position: 100% 50%; }
 }
 
-/* Gradient on word hover */
 .gradientTextActive {
   background: linear-gradient(90deg, #fc466b, #ffb86c, #865dff, #3f5efb);
   background-size: 200% 200%;
@@ -560,7 +557,6 @@ body {
   color: #e9d7ff;
 }
 
-/* The rest of your previous Profile.module.css remains unchanged */
 .projectLinks {
   display: flex;
   gap: 1.5rem;

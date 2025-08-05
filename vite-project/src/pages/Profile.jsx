@@ -4,7 +4,7 @@ import styles from './Profile.module.css';
 const descriptionText = `I'm Manvith, a passionate full stack developer skilled in the MERN stack. I completed an intensive MERN certification from Cuvette, mastering HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB. My projects include a CRM system, restaurant management platform, notebook app, and a real-time news website, all built with a focus on user experience and functionality. I enjoy solving real-world problems through code and thrive in collaborative environments.`;
 
 function getWordSpans(text, highlightIndex) {
-  const words = text.split(/(\s+)/); // keep spaces as separate elements
+  const words = text.split(/(\s+)/); 
   return words.map((word, i) =>
     word.trim() ? (
       <span

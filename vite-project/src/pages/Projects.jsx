@@ -62,7 +62,6 @@ function GradientSection({ title, subtitle, period, location, bullets, links }) 
   );
 }
 
-// Replace these links with your own project URLs!
 const projectsData = [
   {
     title: "CRM System",
