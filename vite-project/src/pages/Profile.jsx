@@ -47,7 +47,7 @@ const Profile = () => {
           <span className={styles.ring2}></span>
           <span className={styles.ring3}></span>
           <div className={styles.profilePic}>
-            <img src="" alt="Profile" />
+            <img src="/img.jpg" alt="Profile" />
           </div>
         </div>
       </div>
